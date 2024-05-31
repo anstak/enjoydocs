@@ -1,3 +1,9 @@
+body {
+  font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size:16px;
+  line-height:1.6; 
+}
+
 .last-update {
   display: none;
 }
@@ -10,4 +16,25 @@
 }
 .content img {
   display: block;
+}
+
+.header {
+  backdrop-filter: none !important;
+}
+
+.header .nav-links {
+  display: none !important;
+}
+
+.header .left {
+  display: none !important;
+}
+
+@media (min-width: 950px) {
+  /* main {
+    padding-top: 0 !important;
+  } */
+  .header {
+    display: none !important;
+  }
 }
