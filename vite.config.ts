@@ -21,6 +21,22 @@ const config = defineConfig({
                 {
                   title : 'Доступные типы опросов',
                   to : '/surveys/'
+                },
+                {
+                  title : 'Настройки вопросов',
+                  to : '/settings/'
+                },
+                {
+                  title : 'Скринер',
+                  to : '/screener/'
+                },
+                {
+                  title : 'Сбор ответов',
+                  to : '/collecting/'
+                },
+                {
+                  title : 'Результаты',
+                  to : '/results/'
                 }
               ]
             }
