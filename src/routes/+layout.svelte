@@ -1,24 +1,8 @@
-<style>
-  .header__nav {
-    text-align: center;
-    width: 100%;
-    border-bottom: 1px solid #e6e6e6;
-    position: relative;
-    z-index: 10;
-    height: 73px;
-    position: fixed;
-    top: 0;
-    background: #f6f6f6;
-  }
-
-  .header__nav li {
-    display: inline-block;
-    font-size: 18px;
-    margin: 10px 20px 0;
-  }
-</style>
-
 <nav class="header__nav d-flex align-items-center">
+  <a href="/reference" class="logo-link" role="link" tabindex="0" aria-label="Enjoy Survey">
+    <img class="logo" height="52" width="208" src="https://enjoysurvey.ru/assets/images/static/logo.svg?ef55cb8c" alt="Enjoy Survey">
+  </a>
+
   <ul>
     <li>
       <a

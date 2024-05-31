@@ -42,7 +42,6 @@ const config = defineConfig({
             }
           ]
         },
-        logo: 'https://enjoysurvey.ru/assets/images/static/logo.svg?ef55cb8c',
         i18n: {
           onThisPage: 'На странице'
         }

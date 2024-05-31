@@ -30,11 +30,51 @@ body {
   display: none !important;
 }
 
+.logo-link {
+  position: absolute;
+  left: 0;
+  top: 10px;
+}
+
 @media (min-width: 950px) {
-  /* main {
-    padding-top: 0 !important;
-  } */
+  .logo-link {
+    left: 4vw;
+  }
+  .theme-default-sidebar {
+    top: 74px !important;
+  }
   .header {
     display: none !important;
   }
+}
+@media (min-width: 1240px) {
+  .logo-link {
+    left: 9vw;
+  }
+}
+
+.sidebar-group {
+  padding-top: 20px;
+}
+
+.sidebar-logo {
+  display: none !important;
+}
+
+.header__nav {
+  text-align: center;
+  width: 100%;
+  border-bottom: 1px solid #e6e6e6;
+  position: relative;
+  z-index: 10;
+  height: 73px;
+  position: fixed;
+  top: 0;
+  background: #f6f6f6;
+}
+
+.header__nav li {
+  display: inline-block;
+  font-size: 18px;
+  margin: 10px 20px 0;
 }
