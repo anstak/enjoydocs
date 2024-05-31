@@ -1,0 +1,13 @@
+.last-update {
+  display: none;
+}
+.sidebar-logo .logo, .logo-container .logo {
+  width: 208px;
+  height: 52px !important;
+}
+.sidebar-logo .title, .logo-container .title {
+  display: none;
+}
+.content img {
+  display: block;
+}
