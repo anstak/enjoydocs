@@ -36,6 +36,26 @@ body {
   top: 10px;
 }
 
+
+
+@media (max-width: 950px) {
+  .logo-link {
+    display: none;
+  }
+  .sub-nav {
+    position: relative;
+    top: 10px;
+    font-size: 18px;
+  }
+  .sub-nav .i-ic-round-menu-open {
+    width: 28px !important;
+    height: 28px !important;
+    font-size: 28px !important;
+  }
+  .header__nav {
+    display: none;
+  }
+}
 @media (min-width: 950px) {
   .logo-link {
     left: 4vw;
@@ -45,6 +65,9 @@ body {
   }
   .header {
     display: none !important;
+  }
+  .content {
+    width: 45vw;
   }
 }
 @media (min-width: 1240px) {
