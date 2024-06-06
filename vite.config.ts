@@ -23,12 +23,20 @@ const config = defineConfig({
                   to : '/surveys/'
                 },
                 {
+                  title : 'Доступные типы вопросов',
+                  to : '/questions/'
+                },
+                {
                   title : 'Настройки вопросов',
                   to : '/settings/'
                 },
                 {
                   title : 'Скринер',
                   to : '/screener/'
+                },
+                {
+                  title : 'Опросные квоты и фильтры',
+                  to : '/quotas/'
                 },
                 {
                   title : 'Сбор ответов',
