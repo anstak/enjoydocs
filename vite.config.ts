@@ -19,6 +19,14 @@ const config = defineConfig({
                   to : '/reference/',
                 },
                 {
+                  title : 'Создайте свой первый опрос',
+                  to : '/first_survey/'
+                },
+                {
+                  title : 'Доступная аудитория',
+                  to : '/auditory/'
+                },
+                {
                   title : 'Доступные типы опросов',
                   to : '/surveys/'
                 },
