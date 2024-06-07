@@ -31,6 +31,10 @@ const config = defineConfig({
                   to : '/surveys/'
                 },
                 {
+                  title : 'Конструктор опроса',
+                  to : '/survey_constructor/'
+                },
+                {
                   title : 'Доступные типы вопросов',
                   to : '/questions/'
                 },
