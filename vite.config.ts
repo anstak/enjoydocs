@@ -51,7 +51,7 @@ const config = defineConfig({
                   to : '/quotas/'
                 },
                 {
-                  title : 'Сбор ответов',
+                  title : 'Сбор ответов и настройка исключений',
                   to : '/collecting/'
                 },
                 {
