@@ -12,7 +12,6 @@ const config = defineConfig({
         sidebar : {
           'Главное меню': [
             {
-              title: "Документация EnjoySurvey",
               items: [
                 {
                   title : 'Справка',
